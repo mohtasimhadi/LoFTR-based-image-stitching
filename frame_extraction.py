@@ -37,5 +37,6 @@ def process_input_folders(input_dir):
                 output_folder = os.path.join(folder_path, f"{video_name}_frames")
                 extract_frames_from_hvec(hvec_file, output_folder)
 
-input_directory = "input"
-process_input_folders(input_directory)
+input_directory = "input/02/2023-11-07_19-59-56_184430105185341300_color.h265"
+output_driectory = "out/02/18443010518B880E00"
+extract_frames_from_hvec(input_directory, output_driectory)
